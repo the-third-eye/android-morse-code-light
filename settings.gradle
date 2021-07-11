@@ -1,0 +1,2 @@
+rootProject.name = "android-morse-code-light"
+include ':app'
