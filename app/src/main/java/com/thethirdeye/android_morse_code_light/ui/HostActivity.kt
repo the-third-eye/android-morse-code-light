@@ -12,39 +12,5 @@ class HostActivity: AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?, persistentState: PersistableBundle?) {
         super.onCreate(savedInstanceState, persistentState)
-
-        var mC = MorseCharacter('a',object:MorseStandard{
-            override fun getSymbol(character: Char): String {
-                TODO("Not yet implemented")
-            }
-
-            override fun getUnits(character: Char): MorseUnits {
-                TODO("Not yet implemented")
-            }
-
-            override fun isCharacter(character: Char): Boolean {
-                TODO("Not yet implemented")
-            }
-        })
-
-        mC.character
-
-
-        var mW = MorseWord("jello",object:MorseStandard{
-            override fun getSymbol(character: Char): String {
-                TODO("Not yet implemented")
-            }
-
-            override fun getUnits(character: Char): MorseUnits {
-                TODO("Not yet implemented")
-            }
-
-            override fun isCharacter(character: Char): Boolean {
-                TODO("Not yet implemented")
-            }
-        })
-
-
     }
-
 }
